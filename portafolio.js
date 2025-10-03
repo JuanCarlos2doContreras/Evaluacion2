@@ -4,7 +4,7 @@ const trabajos = [
           title:"Lapsi",
           category: "Taller Producto",
           photo:"img/lapsi.png",
-          description:"Asiento plegable<br><br>Juan Contreras"
+          description:"Asiento plegable para niños en transporte publico<br><br>Juan Contreras"
         },
         {
         title:"Blitz cookies",
@@ -23,6 +23,30 @@ const trabajos = [
           category: "Modelos y prototipos",
           photo:"img/handle.png",
           description:"Escultura de madera para abrir puertas sin tener contacto directo<br><br>Juan Contreras"
+        },
+        {
+          title:"Trofeo de la Tirana",
+          category: "Estructuras y materiales",
+          photo:"img/trofeo.png",
+          description:"Trofeo del festival La Tirana Musical<br><br>Felipe Barría"
+        },        
+        {
+          title:"Cafetera Giralt",
+          category: "Taller producto",
+          photo:"img/coffee.png",
+          description:"Render de la Cafetera Giralt marca Roig<br><br>Felipe Barría"
+        },
+        {
+          title:"DELUZIO",
+          category: "Taller producto",
+          photo:"img/kiosko.png",
+          description:"Kiosko de providencia<br><br>Felipe Barría"
+        },
+        {
+          title:"Banco apilable",
+          category: "Estructura y materiales",
+          photo:"img/silla.png",
+          description:"Banco que puede aguantar hasta 100kg<br><br>Felipe Barría"
         },
 ]
 
