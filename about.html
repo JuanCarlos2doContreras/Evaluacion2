@@ -22,6 +22,7 @@
 
         <!-- Gallery -->
         <section class="gallery">
+            <canvas id="aqui"></canvas>
             
         </section>
 
@@ -34,6 +35,49 @@
             </div>
         </footer>
     </div>
-    <script src="portafolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+        
+            new Chart("aqui", {
+               type: 'line',
+            data: {
+                labels: ['2015', '2016', '2017','2018', '2019','2020','2021','2022','2023','2024','2025'],
+                datasets: [{
+                    label: 'Completos comidos en fiestas patrias',
+                    data: [5,7,3,4,8,2,4,4,7,3,6],
+                    fill: false,
+                    borderColor: 'rgb(200, 99, 132)',
+                    backgroundColor: 'rgba(200, 99, 132, 0.5)',
+                    tension: 0.1
+                },
+
+                {
+                    label: 'Empanadas comidas en fiestas patrias',
+                    data: [3,4, 7,9,4,3,8,6,1,8,4],
+                    fill: false,
+                    borderColor: 'rgb(0, 255, 100)',
+                    backgroundColor: 'rgba(0, 225, 100, 0.5)',
+                    tension: 0.1
+                }
+
+            ]
+            },
+            options: {
+                layout: {
+        padding: {
+          top: 70,
+          right: 50,
+          bottom: 40,
+          left: 50
+        }
+      },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+        </script>
 </body>
 </html>
